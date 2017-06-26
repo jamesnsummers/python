@@ -1,4 +1,4 @@
-"""Calculator function using Python"""
+"""Calculator function using Python tutorial on digitalocean.com"""
 
 # Define welcome() function to welcome the user
 def welcome():
