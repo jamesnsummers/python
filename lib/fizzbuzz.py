@@ -1,3 +1,4 @@
+"""fizzbuzz function"""
 def fizzbuzz(max_num):
     """Loops through 1-max_num and prints message depending on evaluation of integer."""
     for num in range(1, max_num):
