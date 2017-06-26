@@ -1,21 +1,23 @@
 """Calculator function using Python"""
 
+# Define welcome() function to welcome the user
 def welcome():
     """this is the function to welcome the user"""
     print('''
-Welcome to Calculator
-''')
+        Welcome to Calculator
+        ''')
+# Define calculate() function to ask calculate user entries
 def calculate():
     """this is the function to calculate user entries"""
     operation = input('''
-Please type in the math operation you would like to complete:
-+ for addition
-- for subtraction
-* for multiplication
-/ for division
-** for power
-% for modulo
-''')
+        Please type in the math operation you would like to complete:
+        + for addition
+        - for subtraction
+        * for multiplication
+        / for division
+        ** for power
+        % for modulo
+        ''')
 
     number_1 = int(input('Please enter the first number: '))
     number_2 = int(input('Please enter the second number: '))
@@ -68,5 +70,5 @@ def again():
 
 #Call welcome() outside of the function
 welcome()
-# Call calculate() outside of the function
+#Call calculate() outside of the function
 calculate()
